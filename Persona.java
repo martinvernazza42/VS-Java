@@ -48,8 +48,20 @@ class Cliente {
     }
   
   }
+public class Persona{
+  private String nombre;
+  private String apellido;
+  private int DNI;
+  private boolean hambriento;
+
+  public Persona(String nombre, String apellido, int DNI){
+    nombre = "unNombre";
+    apellido = "unApellido";
+    DNI = 0;
+}
   
-  public class clasePOO {
+
+public class clasePOO {
     public static void main(String[] args) {
   
       Cliente clienteDePedro = new Cliente("Juan", "Perez");
@@ -59,3 +71,4 @@ class Cliente {
     }
   
   }
+} 
