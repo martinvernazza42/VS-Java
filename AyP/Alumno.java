@@ -1,3 +1,4 @@
+package AyP;
 public class Alumno{
     private String nombre;
     private int legajo;
@@ -19,5 +20,7 @@ public class Alumno{
     public void setLegajo(int legajo){
         this.legajo =legajo;
     }
-
+    public static void main(String[] args) {
+        
+    }
 }
