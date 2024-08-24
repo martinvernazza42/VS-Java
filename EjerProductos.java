@@ -122,8 +122,8 @@ public class EjerProductos {
       Empleado empleado = new Empleado("Maria", "Garcia", 98765432, 2000);
       Caja caja = new Caja(empleado, 1);
   
-      Producto producto1 = new Producto("Lapicero", 10, 2);
-      Producto producto2 = new Producto("Cuaderno", 20, 1);
+      Producto producto1 = new Producto("Pantalla", 10, 2);
+      Producto producto2 = new Producto("Teclado", 20, 1);
   
       Transaccion transaccion = new Transaccion(cliente, caja);
       transaccion.agregarProducto(producto1);
